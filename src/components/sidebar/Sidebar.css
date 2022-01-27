@@ -1,0 +1,94 @@
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.sidebar-logo img {
+    width: 90px;
+}
+.sidebar-menu {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sidebar-menu li {
+    line-height: normal;
+    overflow: hidden;
+}
+.sidebar-menu li.sidebar-submenu-open .sidebar-submenu {
+    max-height: 0;
+}
+.sidebar-menu li.sidebar-submenu-open .sidebar-dropdown {
+    transform: rotate(-90deg);
+}
+.sidebar-menu li.sidebar-submenu-close .sidebar-submenu {
+    max-height: 700px;
+}
+.sidebar-menu li .sidebar-dropdown {
+    width: 17px;
+    height: 17px;
+    object-fit: contain;
+}
+.sidebar-menu li .sidebar-menu-item {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    padding: 0 32px;
+    font-size: 16px;
+    border-radius: 4px;
+    overflow: hidden;
+    color: #8a7c88;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: 'Asap-Regular';
+    background: transparent;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+.sidebar-menu li .sidebar-menu-item img *, .sidebar-menu li .sidebar-menu-item svg * {
+    fill: #8a7c88;
+}
+.sidebar-menu li .sidebar-menu-item:hover {
+    color: #f39fff;
+    opacity: 1;
+}
+.sidebar-menu li .sidebar-menu-item:hover svg * {
+    fill: #f39fff;
+}
+.sidebar-menu li .sidebar-menu-item.active {
+    background-color: #3a1b37;
+    color: #f39fff;
+    opacity: 1;
+}
+.sidebar-menu li .sidebar-menu-item.active svg * {
+    fill: #f39fff;
+}
+.sidebar-menu li .sidebar-menu-label {
+    flex-grow: 1;
+}
+.sidebar-menu li .sidebar-menu-icon {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    background-size: contain;
+    margin-right: 16px;
+}
+.sidebar-menu .sidebar-submenu {
+    list-style: none;
+}
+.sidebar-menu .sidebar-submenu li {
+    list-style: none;
+}

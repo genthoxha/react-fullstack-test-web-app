@@ -1,0 +1,15 @@
+.page {
+    min-height: 100vh;
+    display: flex;
+}
+.page-content {
+    flex-grow: 1;
+    background-color: #1e041b;
+    color: #fff;
+}
+.page-sidebar {
+    flex: 0 0 270px;
+    padding: 40px 8px;
+    border: 1px solid #3a1b37;
+    background-color: #2c1229;
+}

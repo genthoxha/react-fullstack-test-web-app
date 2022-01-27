@@ -1,0 +1,26 @@
+.users-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.users-container-checkpoints {
+  display: flex;
+  flex-direction: row;
+}
+
+.users-rank-header table {
+  margin-top: 100px;
+  border-collapse: collapse;
+  width: 100%;
+  color: #8e818d;
+}
+
+.users-rank-header table td {
+}
+
+th,
+td {
+  text-align: center;
+  padding: 16px;
+}

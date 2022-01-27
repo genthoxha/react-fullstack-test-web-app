@@ -1,0 +1,27 @@
+.itemContainer,
+.itemContainer:hover {
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont;
+  width: 100%;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+  text-align: left;
+  color: #8e818d;
+  border-left: 1px #3a1b37 solid;
+  padding: 20px;
+}
+.itemContainer:hover {
+  background-color: #2c1229;
+}
+
+.itemContainer p {
+  padding: 0;
+  margin: 0;
+}
+
+.checkpoint-id {
+  font-size: 25px;
+  color: #f39fff;
+  line-height: 2;
+}
